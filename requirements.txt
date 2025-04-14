@@ -1,8 +1,0 @@
-opencv-python
-paddleocr
-pyttsx3
-numpy
-Pillow
-torch
-torchvision
-pytest
