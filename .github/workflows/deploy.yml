@@ -20,8 +20,12 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Run model (or script)
-        run: python Bus_Final.ipynb
+      - name: Install Jupyter
+        run: pip install notebook
+
+      - name: Run notebook
+        run: jupyter nbconvert --to notebook --execute Bus_Final.ipynb
+
 
       - name: Copy results to deploy folder
         run: |
