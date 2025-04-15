@@ -21,7 +21,7 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Run model (or script)
-        run: python your_script.py
+        run: python Bus_Final.ipynb
 
       - name: Copy results to deploy folder
         run: |
