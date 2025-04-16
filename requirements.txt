@@ -1,5 +1,6 @@
 torch
 ultralytics
 opencv-python-headless
+paddlepaddle
 paddleocr
 gTTS
