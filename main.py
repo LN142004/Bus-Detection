@@ -5,7 +5,7 @@ import cv2
 
 def main():
     model = load_model()
-    image_path = "yolov5/runs/detect/exp2/img1.jpg"
+    image_path = "img1 (1).jpg"
     results = model(image_path)
 
     bbox = results.xyxy[0][0][:4].tolist()
