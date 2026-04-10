@@ -6,6 +6,7 @@ import cv2
 def main():
     model = load_model()
     image_path = "img1 (1).jpg"
+
     results = model(image_path)
 
     bbox = results.xyxy[0][0][:4].tolist()
